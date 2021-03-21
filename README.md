@@ -70,7 +70,11 @@
 * 引用
     * 指向常量的引用（reference to const）
     * 没有 const reference，因为引用本身就是 const pointer
-
+```cpp
+int const  *ptr; // ptr is a pointer to constant int 
+int *const ptr;  // ptr is a constant pointer to int
+```
+	
 > （为了方便记忆可以想成）被 const 修饰（在 const 后面）的值不可改变，如下文使用例子中的 `p2`、`p3`
 
 #### 使用
